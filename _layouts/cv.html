@@ -2,9 +2,14 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
+  <title> {% if page.title %} {{ page.title }} {% endif %}</title>
   <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+  <link href="media/{{ site.style }}-print.css" type="text/css"
+  rel="stylesheet" media="print">
+<style type="text/css">
+  table {page-break-inside: auto;}
+  tr {page-break-inside: avoid; page-break-after: auto;}
+</style>
 </head>
 <body>
   <div id="main">
