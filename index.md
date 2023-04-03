@@ -128,7 +128,7 @@ I have had to work creatively to follow sustainable development practices
 within the confines of the available trusted development environment.
 
 `2022`
-__Great Recognition Award__&emsp; *Office for National Statistics*
+__Great Contribution Award__&emsp; *Office for National Statistics*
 
 Awarded by another team for a piece of surge work I delivered at short-notice. I
 made use of Google BigQuery and distributed data science software to interrogate
