@@ -81,16 +81,14 @@ responsibilities and provided editorial assistance during the writing process.
 `2017-2021`
 __PhD studentship teaching__&emsp; *School of Mathematics, Cardiff University* 
 
-Throughout my PhD, I supported a number of modules and services as a tutor and
-assessment advisor.
-Notable roles include an introductory Python for Mathematics course, a
-university-wide maths support service, and assessing multiple two-day
-hackathons for Masters students.
-These roles provided me countless opportunities to
-reinforce teaching and learning in a variety of environments, including group,
-one-on-one, structured, and drop-in settings. This range allowed me to
-demonstrate my nature as a mathematician and educator, one who is proactive,
-analytical, and enthusiastic.
+I supported a number of modules and services as a tutor and assessment advisor,
+including an introductory Python for Mathematics course, the university maths
+support service, and multiple two-day hackathons for Masters students. I also
+founded an Advanced Python Workshop for my fellow PhD students. These
+roles provided me countless opportunities to reinforce teaching and learning in
+a variety of environments, including group, one-on-one, structured, and drop-in
+settings. This range allowed me to demonstrate my nature as a mathematician and
+educator, one who is proactive, analytical, and enthusiastic.
 
 ## Education
 
@@ -112,12 +110,11 @@ events.
 __BSc Mathematics (First Class Honours)__&emsp;
 *School of Mathematics, Cardiff University*
 
-I maintained a breadth of topics throughout my undergraduate degree, with
-modules spanning operational research, discrete mathematics, computing, and
-pure mathematics. During my studies, I also received perfect scores for two
-projects. In one I simulated and analysed a hospital emergency department, and
-the other comprised a comparison of two game-theoretic strategies in an
-iterated Prisoner's Dilemma.
+I maintained a breadth of interests throughout my degree, with modules spanning
+operational research, computing, and pure mathematics. During my studies, I
+received perfect scores for two projects. In one I simulated and analysed a
+hospital emergency department, and the other comprised a comparison of two
+game-theoretic strategies in an iterated Prisoner's Dilemma.
 
 
 ## Awards
@@ -127,10 +124,17 @@ __Sustained Excellence Award__&emsp; *Office for National Statistics*
 
 Internal recognition for leading the technical development of a long-term
 project synthesising a large, linked census data product.
-<!-- I have had to work creatively to follow sustainable development practices
-within the confines of the available trusted development environment. -->
+I have had to work creatively to follow sustainable development practices
+within the confines of the available trusted development environment.
 
 `2022`
+__Great Recognition Award__&emsp; *Office for National Statistics*
+
+Awarded by another team for a piece of surge work I delivered at short-notice. I
+made use of Google BigQuery and distributed data science software to interrogate
+several large datasets. I designed a pipeline that ran as a live demonstration
+to key stakeholders for the team.
+
 __3rd Place Prize__&emsp;
 *United Nations Privacy Enhancing Technologies Lab*
 
@@ -201,8 +205,8 @@ Operational Research Society.
 
 ### Cooking
 
-I taught myself to cook as a child, then I worked as a chef while studying for
-my A-levels, including at an AA Rosette restaurant. Cooking for friends and
+I taught myself to cook as a child, and then worked as a chef while at sixth
+form, including at a former Michelin star restaurant. Cooking for friends and
 family is now one of my dearest pastimes.
 
 ### Cycling
