@@ -66,9 +66,10 @@ __Project allocation consultancy__&emsp;
 The largest school in Cardiff University commissioned me to implement a more
 efficient process for allocating dissertations to their final-year students.
 The programmatic framework I installed, which relies on a
-[Python library](https://matching.readthedocs.io) I developed during my PhD,
-reduced the School's workload from a week to a matter of seconds. Moreover, the
-allocation it provides is mathematically fair and student-optimal.
+[Python library](https://daffidwilde.github.io/matching) I developed during my
+PhD, reduced the School's workload from a week's work across the team to a
+matter of seconds on a single computer. Moreover, the allocation it provides is
+mathematically fair and student-optimal.
 
 __Dissertation supervisor__&emsp;
 *School of Mathematics, Cardiff University*
@@ -119,31 +120,38 @@ game-theoretic strategies in an iterated Prisoner's Dilemma.
 
 ## Awards
 
-`2023`
-__Sustained Excellence Award__&emsp; *Office for National Statistics*
+`2022-2023`
+__Reward and Recognition__&emsp; *Office for National Statistics*
 
-Internal recognition for leading the technical development of a long-term
-project synthesising a large, linked census data product.
-I have had to work creatively to follow sustainable development practices
-within the confines of the available trusted development environment.
+I have earnt several internal awards in recognition of my contributions to data
+science at the Office for National Statistics:
+
+- __Sustained Excellence Award__ for my work leading a data synthesis project
+  which spanned over a year. The award notes my commitment to sustainable
+  software development practices in a restricted technical environment, and my
+  essential role in establishing synthetic data as a part of the ONS'
+  privacy-enhancing technologies strategy.
+- __Great Contribution Award__ for encouraging and facilitating my team to
+  adopt GitHub Projects as an effective project management tool following a
+  team restructure. This tool has now been adopted in other teams at the
+  Campus. I was also rewarded for disseminating my expertise in software
+  development across other projects in the team, including setting up automated
+  testing and continuous integration frameworks.
+- __Great Contribution Award__ from another team for a piece of surge work I
+  delivered at short-notice. I made use of Google BigQuery and distributed data
+  science software to interrogate several large datasets on a new development
+  platform. My analysis has since been used in live demonstrations and training
+  materials across government.
 
 `2022`
-__Great Contribution Award__&emsp; *Office for National Statistics*
-
-Awarded by another team for a piece of surge work I delivered at short-notice. I
-made use of Google BigQuery and distributed data science software to interrogate
-several large datasets. I designed a pipeline that ran as a live demonstration
-to key stakeholders for the team.
-
-__3rd Place Prize__&emsp;
-*United Nations Privacy Enhancing Technologies Lab*
+__3rd Place in PETs Hackathon__&emsp; *United Nations PET Lab*
 
 Competed in a team of three, finishing third out of around two hundred
 international teams in a [hackathon](https://datasciencecampus.ons.gov.uk/campus-in-the-top-three-at-the-un-pet-lab-hackathon)
 centred around a real-world application of privacy-enhanced data analysis.
-<!-- We accurately predicted three hidden characteristics (average 77%) of Kenyan
-refugee households using open source tools for differential privacy inside a
-secure enclave. -->
+We accurately predicted three hidden characteristics of Kenyan refugee
+households using open source tools for differential privacy inside a secure
+enclave.
 
 `2018`
 __Support for NATCOR Bursary__&emsp;
@@ -185,18 +193,16 @@ matching games*. Journal of Open Source Software, 5(48):2169.
 
 `2022`
 Houssiau, F., et al. *A framework for auditable synthetic data generation*.
-Under review at the Royal Statistical Society.
 [arXiv:2211.11540](https://arxiv.org/abs/2211.11540)
 
 `2020`
 Wilde, H., Knight, V. and Gillard, J. *A novel initialisation based on
-hospital-resident assignment for the k-modes algorithm*. Under review at Soft Computing.
+hospital-resident assignment for the k-modes algorithm*.
 [arXiv:2002.02701](https://arxiv.org/abs/2002.02701)
 
 Wilde, H., et al. *Segmentation analysis and the recovery of queuing parameters
 via the Wasserstein distance: a study of administrative data for patients with
-chronic obstructive pulmonary disease*. Under review at the Journal of the
-Operational Research Society.
+chronic obstructive pulmonary disease*.
 [arXiv:2008.04295](https://arxiv.org/abs/2008.04295)
 
 
