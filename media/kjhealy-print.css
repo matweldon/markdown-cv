@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -64,8 +64,8 @@ p {
 	position: relative;
 	left: 28%;
 	margin-bottom: 0.7em;
-	margin-right: 0;
-	width: 70%;
+	margin-right: 0.7;
+	width: 65%;
 }
 
 code {
@@ -79,7 +79,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -14%;
+	left: -15%;
 }
 
 
@@ -137,7 +137,7 @@ h2 {
 	color: #d72;
 	margin-top: .5em;
 	position: relative;
-	top: 1.2em;
+	top: 1.4em;
 	text-align: right;
 	width: 15%;
 }
@@ -154,7 +154,7 @@ h3 {
 }
 
 a {
-	color: #ccc;
+	color: #58a;
 	text-decoration:none;
 }
 
@@ -189,6 +189,19 @@ strong {
 	visibility: hidden;
 }
 
+skill {
+	color: #d72;
+	font-weight: bold;
+}
 
+#skills {
+	margin-bottom: 1.5em;
+	position: relative;
+	left: 28%;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 80%;
+}
 
-
+#skills a {
+	text-decoration: none;
+}

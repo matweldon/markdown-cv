@@ -1,95 +1,135 @@
 ---
 layout: cv
-title: Henry Wilde's CV
+title: Henry Wilde
 ---
-# Henry Wilde
-<br>
-Experienced data scientist seeking ethical, impactful work
 
 <div id="webaddress">
-<a href="mailto:henrydavidwilde@gmail.com">henrydavidwilde@gmail.com</a>
-| <a href="https://github.com/daffidwilde">github.com/daffidwilde</a>
+<i class="fa fa-solid fa-map-pin"></i> Cardiff, Wales
+&nbsp;
+<i class="fa fa-solid fa-envelope"></i> <a href="mailto:henrydavidwilde@gmail.com">henrydavidwilde@gmail.com</a>
 <br>
-references available upon request
+<i class="fa fa-brands fa-github"></i> <a href="https://github.com/daffidwilde">github.com/daffidwilde</a>
+&nbsp;
+<i class="fa fa-solid fa-clipboard"></i> References available upon request
 </div>
 
 
-## Currently
+## Summary
 
-Leveraging privacy-enhancing technologies to create synthetic census microdata
+I am a thoughtful, ethically minded scientist with a track record of pragmatism
+and efficient, impactful work. I have a breadth of projects under my belt from
+large-scale health data analysis with machine learning to productionising
+secure enclaves for record linkage. I find great joy in picking up new tools
+and techniques, and in putting those skills to use at pace.
 
-### Specialisms
+Currently, I am leveraging LLMs to realise business efficiencies in the ONS,
+and I champion the increased use of privacy-enhancing technologies (PETs)
+across the Civil Service and Government.
 
-Software development best practices,
-data synthesis,
-large-scale administrative data analysis,
-algorithm evaluation
+Having successfully led numerous high-impact projects in academia and
+government, I am now looking to apply my expertise as a data scientist and
+software engineer in a new venture.
 
 
 ## Employment
 
 `May 2022 -
 present`
-__Data Scientist__&emsp; *Data Science Campus, Office for National Statistics*
+__Data scientist__&emsp; *Data Science Campus, Office for National Statistics*
 
-I am the technical lead on a project synthesising England and Wales Census
-products within the Privacy-Enhancing Technologies (PETs) squad at the Campus.
-Working in an agile environment, I deliver large-scale synthetic datasets and
-synthesis methods, and I contribute to the development of open-source tools for
-privacy-preserving technologies. I am also an active participant in the
-cross-government and international PETs communities, where I help influence
-organisational policy on the uptake of PETs.
+- Developing a LLM-based reader to summarise ONS activity in parliamentary
+  debates, leading to significant cash savings for the Office
+- Core developer of a privacy-preserving
+  [record linkage toolkit](https://github.com/datasciencecampus/pprl_toolkit),
+  including an accompanying secure computation architecture on GCP
+- Mentored a team of apprentices in creating a
+  [Python interface](https://github.com/datasciencecampus/census21api) to the
+  England and Wales 2021 Census API
+- Technical lead and project owner in creating
+  [high-fidelity synthetic census microdata](https://datasciencecampus.ons.gov.uk/synthesising-the-linked-2011-census-and-deaths-dataset-while-preserving-its-confidentiality/)
+  using distributed computing and differential privacy
+
+<p id="skills">
+<skill>Python</skill> (data science stack, BeautifulSoup)
+ | <skill>Version control</skill> (Git, GitLab, GitHub)
+ | <skill>Google Cloud Platform</skill>
+ | <skill>Docker</skill>
+ | <skill>Automated testing</skill> (pytest, hypothesis, GitHub Actions)
+ | <skill>Publishing</skill> (Quarto, Streamlit, GitHub Pages, Markdown, LaTeX)
+ | <skill>LLMs</skill> (Gemini, OpenAI, LangChain)
+ | <skill>Distributed computation</skill> (Dask, PySpark, Google BigQuery)
+</p>
 
 `Feb 2021 -
 May 2022`
-__Research Associate__&emsp; *Water Research Institute, Cardiff University*
+__Research associate__&emsp; *Water Research Institute, Cardiff University*
 
-I acted as the main contributor to software infrastructure and mathematical
-modelling in the Welsh Government 
-[wastewater surveillance programme](https://wastewatersurveillance.com).
-The aim of the project was to improve public health monitoring via wastewater
-sampling during the COVID-19 pandemic. As well as establishing reproducible
-analytical pipelines in R, I developed statistical models to improve insights
-into the ongoing pandemic. These included models for correcting
-physico-chemical effects on SARS-CoV-2 measurements and a hierarchical model
-for predicting COVID-19 prevalence across Wales.
+- Designed and implemented the software infrastructure for the Welsh Government
+  [wastewater surveillance programme](https://wastewatersurveillance.com)
+- Taught myself the principles of R for data science in the first month to
+  establish reproducible ETL pipelines for biochemical data
+- Developed two core models for monitoring COVID-19 prevalence across Wales: a
+  hierarchical GAM for predicting case rates and a Bayesian model to account
+  for dilution in the wastewater system
+- My analysis and reporting had a direct impact on Welsh Government policy at
+  the height of the pandemic
 
-<!-- My involvement in this project began as part of an
-[international wastewater monitoring collaboration](https://cardiff.ac.uk/news/view/2499536-international-knowledge-exchange-projects-to-monitor-levels-of-covid-19-in-wastewater-worldwide)
-with the University of Campinas, Brazil, funded by the Global Challenges
-Research Fund. -->
+<p id="skills">
+<skill>R</skill> (tidyverse, mgcv, Shiny, RStan, RMarkdown)
+ | <skill>Version control</skill> (Git, GitHub)
+ | <skill>LIMS</skill>
+</p>
 
 `2019-2020`
-__Project allocation consultancy__&emsp;
+__Volunteer consultant__&emsp;
 *School of Biosciences, Cardiff University*
 
-The largest school in Cardiff University commissioned me to implement a more
-efficient process for allocating dissertations to their final-year students.
-The programmatic framework I installed, which relies on a
-[Python library](https://daffidwilde.github.io/matching) I developed during my
-PhD, reduced the School's workload from a week's work across the team to a
-matter of seconds on a single computer. Moreover, the allocation it provides is
-mathematically fair and student-optimal.
+- Commissioned by the largest school in the University to improve their
+  dissertation allocation process
+- Implemented a hands-off, programmatic framework using a
+  [Python research library](https://daffidwilde.github.io/matching) I developed
+  during my PhD
+- Reduced the workload from a week across the team to a matter of seconds on
+  one computer, and guaranteed mathematical fairness
+
+<p id="skills">
+<skill>Python</skill>
+ | <skill>Version control</skill> (Git, GitHub)
+ | <skill>Jupyter</skill>
+ | <skill>Microsoft Excel</skill>
+</p>
 
 __Dissertation supervisor__&emsp;
 *School of Mathematics, Cardiff University*
 
-I assisted in the supervision of a MMORS final-year project conducting an
-empirical study of Folk Theorems in repeated games. My primary role was to
-consult on the supporting research software. I also took on pastoral
-responsibilities and provided editorial assistance during the writing process.
+- Co-supervisor for a MMORS final-year project on Folk Theorems in game theory
+- Mentored the student in how to produce a sustainable piece of research
+  software to accompany their dissertation
+- Assisted in editing the final report prior to submission
+
+<p id="skills">
+<skill>Python</skill>
+ | <skill>Version control</skill> (Git, GitHub)
+ | <skill>SQL</skill>
+ | <skill>LaTeX</skill>
+</p>
 
 `2017-2021`
 __PhD studentship teaching__&emsp; *School of Mathematics, Cardiff University* 
 
-I supported a number of modules and services as a tutor and assessment advisor,
-including an introductory Python for Mathematics course, the university maths
-support service, and multiple two-day hackathons for Masters students. I also
-founded an Advanced Python Workshop for my fellow PhD students. These
-roles provided me countless opportunities to reinforce teaching and learning in
-a variety of environments, including group, one-on-one, structured, and drop-in
-settings. This range allowed me to demonstrate my nature as a mathematician and
-educator, one who is proactive, analytical, and enthusiastic.
+- Heavily involved in teaching modules and services, including courses
+  on statistical inference and Python for mathematics, the university maths
+  support service, and hackathons for Masters students
+- Founded an Advanced Python Workshop for my fellow PhD students covering
+  topics like distributed computing, automated testing, and version control
+- Mentored a high school student during a Nuffield Research Placement
+
+<p id="skills">
+<skill>Python</skill> (data science stack, SymPy, Dask)
+ | <skill>Version control</skill> (Git, GitHub)
+ | <skill>Testing</skill> (pytest, hypothesis, Travis CI)
+ | <skill>Writing</skill> (LaTeX, Markdown, reStructuredText, Sphinx)
+</p>
 
 ## Education
 
@@ -97,68 +137,60 @@ educator, one who is proactive, analytical, and enthusiastic.
 __PhD Applied Statistics, Operational Research and Data Analytics__&emsp;
 *School of Mathematics, Cardiff University*
 
-My PhD was partially funded by a Welsh NHS Health Board, and my thesis focuses
-on the thorough, ethical utilisation of machine learning techniques in
-healthcare settings. The key results of my research include new perspectives on
-algorithm evaluation and fair clustering, as well as actionable insights into a
-healthcare population using routinely gathered, administrative data. In
-addition to these contributions, my thesis is accompanied by a collection of
-well-developed research software packages. I also took every opportunity to
-disseminate my research through talks, live coding workshops, and poster
-events.
+- [My thesis](https://github.com/daffidwilde/thesis) focuses on the thorough
+  and ethical utilisation of machine learning in healthcare settings
+- Key results include new perspectives on algorithm evaluation through data
+  synthesis, and fair clustering
+- My research provided actionable insights for my co-funders into a
+  critical healthcare population in their care using only administrative data
+- Accompanied by a suite of sustainably developed research software packages
 
 `2014-2017`
 __BSc Mathematics (First Class Honours)__&emsp;
 *School of Mathematics, Cardiff University*
 
-I maintained a breadth of interests throughout my degree, with modules spanning
-operational research, computing, and pure mathematics. During my studies, I
-received perfect scores for two projects. In one I simulated and analysed a
-hospital emergency department, and the other comprised a comparison of two
-game-theoretic strategies in an iterated Prisoner's Dilemma.
+- Maintained a breadth of interests, including operational research, computing,
+  and pure mathematics
+- Received perfect scores for two projects: a simulation and analysis of a
+  hospital emergency department, and an empirical comparison of two strategies
+  in an iterated Prisoner's Dilemma
 
 
 ## Awards
 
-`2022-2023`
+`2022-2024`
 __Reward and Recognition__&emsp; *Office for National Statistics*
 
-I have earnt several internal awards in recognition of my contributions to data
-science at the Office for National Statistics:
-
-- __Sustained Excellence Award__ for my work leading a data synthesis project
-  which spanned over a year. The award notes my commitment to sustainable
-  software development practices in a restricted technical environment, and my
-  essential role in establishing synthetic data as a part of the ONS'
-  privacy-enhancing technologies strategy.
-- __Great Contribution Award__ for encouraging and facilitating my team to
-  adopt GitHub Projects as an effective project management tool following a
-  team restructure. This tool has now been adopted in other teams at the
-  Campus. I was also rewarded for disseminating my expertise in software
-  development across other projects in the team, including setting up automated
-  testing and continuous integration frameworks.
-- __Great Contribution Award__ from another team for a piece of surge work I
-  delivered at short-notice. I made use of Google BigQuery and distributed data
-  science software to interrogate several large datasets on a new development
-  platform. My analysis has since been used in live demonstrations and training
-  materials across government.
+- Received a total of eight awards across all three bands, rewarding me for
+  going above and beyond in my work
+- Two awards for giving particularly accessible and engaging technical talks to
+  colleagues in the Office
+- Three awards for my involvement in high-priority surge work between
+  governmental departments and with our international partners
+- A sustained excellence award for my work on synthetic data and its impact on
+  the ONS Data Strategy
+- Two awards for fostering a culture in my teams that values software
+  sustainability and effective project management practices 
 
 `2022`
-__3rd Place in PETs Hackathon__&emsp; *United Nations PET Lab*
+__PETs Hackathon__&emsp; *United Nations PET Lab*
 
-Competed in a team of three, finishing third out of around two hundred
-international teams in a [hackathon](https://datasciencecampus.ons.gov.uk/campus-in-the-top-three-at-the-un-pet-lab-hackathon)
-centred around a real-world application of privacy-enhanced data analysis.
-We accurately predicted three hidden characteristics of Kenyan refugee
-households using open source tools for differential privacy inside a secure
-enclave.
+- [Finished third](https://datasciencecampus.ons.gov.uk/campus-in-the-top-three-at-the-un-pet-lab-hackathon)
+  out of two hundred international teams
+- The hackathon was centred around a real-world application of privacy-enhanced
+  data analysis
+- Accurately predicted three hidden characteristics of Kenyan refugee
+  households using open-source tools for differential privacy inside a secure
+  enclave
 
 `2018`
 __Support for NATCOR Bursary__&emsp;
 *Association of European Operational Research Societies*
 
-Financial support to attend NATCOR courses in Approximation Algorithms and
-Heuristics, and Predictive Analysis and Forecasting.
+- Received financial support to attend postgraduate courses in operational
+  research
+- Courses covered approximation algorithms and heuristics, and predictive
+  analysis and forecasting
 
 
 ## Publications
@@ -191,19 +223,15 @@ matching games*. Journal of Open Source Software, 5(48):2169.
 
 ### Pre-prints
 
+`2024`
+Jones, O., et al. *Estimating wastewater dilution using chemical markers and
+incomplete flow measurements: application to normalisation of SARS-CoV-2
+measurements.*
+[DOI:10.20944/preprints202402.1109.v1](https://doi.org/10.20944/preprints202402.1109.v1)
+
 `2022`
 Houssiau, F., et al. *A framework for auditable synthetic data generation*.
 [arXiv:2211.11540](https://arxiv.org/abs/2211.11540)
-
-`2020`
-Wilde, H., Knight, V. and Gillard, J. *A novel initialisation based on
-hospital-resident assignment for the k-modes algorithm*.
-[arXiv:2002.02701](https://arxiv.org/abs/2002.02701)
-
-Wilde, H., et al. *Segmentation analysis and the recovery of queuing parameters
-via the Wasserstein distance: a study of administrative data for patients with
-chronic obstructive pulmonary disease*.
-[arXiv:2008.04295](https://arxiv.org/abs/2008.04295)
 
 
 ## Interests
@@ -223,5 +251,6 @@ and renovated a vintage steel-frame touring bike.
 
 ### D & D
 
-After years of listening to various Dungeons & Dragons podcasts, I now serve as
-the game master in a homebrew campaign for my three brothers and our partners.
+I adore fantasy in all its forms. Now, after years of listening to Dungeons &
+Dragons podcasts, I serve as the game master in a homebrew campaign for my
+three brothers.

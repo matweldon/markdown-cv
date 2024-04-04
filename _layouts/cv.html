@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset=utf-8 />
+  <meta name="viewport" charset=utf-8 content="width=device-width, initial-scale=1"/>
   <title> {% if page.title %} {{ page.title }} {% endif %}</title>
   <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/{{ site.style }}-print.css" type="text/css"
-  rel="stylesheet" media="print">
+  <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
   table {page-break-inside: auto;}
   tr {page-break-inside: avoid; page-break-after: auto;}
@@ -13,6 +13,7 @@
 </head>
 <body>
   <div id="main">
+    <h1>{% if page.title %} {{ page.title }} {% endif %}</h1>
     <div id="content">
     {{ content }}
     </div>

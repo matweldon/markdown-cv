@@ -68,7 +68,7 @@ p {
 	left: 33%;
 	margin-bottom: .7em;
 	margin-right: 0;
-	width: 70%;
+	width: 46.5%;
 }
 
 code {
@@ -90,7 +90,7 @@ ul {
 	position: relative;
 	left: 33%;
 	width: 65%;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 	margin-top: -0.5em;
 }
 
@@ -105,6 +105,8 @@ li {
 	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
+	width: 70%;
+	max-width: 70%;
 	/*color: #777;*/
 }
 
@@ -157,12 +159,24 @@ h3 {
 }
 
 a {
-	color: #aaa;
+	color: #58a;
 	text-decoration:none
 }
 
 a:hover {
 	color:#069
+}
+
+#skills {
+	margin-bottom: 1.5em;
+	position: relative;
+	left: 33%;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 80%;
+}
+
+#skills a {
+	text-decoration: none;
 }
 
 #webaddress {
@@ -175,12 +189,18 @@ a:hover {
 }
 
 #webaddress a {
+	color: #aaa;
 	text-decoration: none;
 }
 
 em {
 	/* font-weight: bold; */
 	font-style: italic;
+}
+
+skill {
+	color: #d72;
+	font-weight: bold;
 }
 
 strong {

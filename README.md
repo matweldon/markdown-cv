@@ -6,20 +6,6 @@ For more details, see the [project page](http://elipapa.github.io/markdown-cv), 
 
 ***
 
-## Customization
-
-Simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
-
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
-
-and edit the `index.md` file [directly in Github](https://help.github.com/articles/editing-files-in-your-repository/)
-
-![](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
-
-adding your skills, jobs and education.
-
-![](https://help.github.com/assets/images/help/repository/edit-readme-light.png)
-
 ## Distribution
 
 To transform your plain text CV into a beautiful and shareable HTML page, you have two options:
@@ -43,14 +29,12 @@ Any change you want to make to your CV from then on would have to be done on the
 ## Styling
 
 The included CSS will render your CV in two styles:
-s
-1. `kjhealy` the original default, inspired by [kjhealy's vita
-template](https://github.com/kjhealy/kjh-vita).
-2. `davewhipp` is a tweaked version of `kjhealy`, with bigger fonts and dates
-  right aligned.
 
-To change the default style, simply change the variable in the
-`_config.yml` file.
+1. `kjhealy` the original default, inspired by [kjhealy's vita template](https://github.com/kjhealy/kjh-vita).
+2. `davewhipp` is a tweaked version of `kjhealy`, with bigger fonts and dates
+   right aligned.
+
+To change the default style, simply change the variable in the `_config.yml` file.
 
 Any other styling is possible. More CSS style contributions and forks are welcome!
 
